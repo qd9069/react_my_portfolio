@@ -5,6 +5,8 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 
 export default function Contact() {
   return (
@@ -99,17 +101,18 @@ export default function Contact() {
             Alternatively, feel free to contact me via phone number or email
           </Typography>
           <Typography color="black" gutterBottom variant="body2">
-            Phone Number:
-            <Button variant="contained" size="small" href={`tel:8582678234`}>
+            Phone Number: 
+            <Button variant="contained" size="small" href={`tel:8582678234`} endIcon={<PhoneIphoneIcon />}>
               (858) 267 - 8234
             </Button>
           </Typography>
           <Typography color="black" gutterBottom variant="body2">
-            Email:
+            Email: 
             <Button
               variant="contained"
               size="small"
               href={`mailto:qdengliao@gmail.com`}
+              endIcon={<AttachEmailIcon />}
             >
               qdengliao@gmail.com
             </Button>

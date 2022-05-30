@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import CssBaseline from '@mui/material/CssBaseline';
 // import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import '@fontsource/roboto/500.css';
 
 export default function AboutMe() {
   return (
