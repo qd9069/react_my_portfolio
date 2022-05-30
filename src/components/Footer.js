@@ -19,9 +19,9 @@ export default function BottomNav() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
-        <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
-        <BottomNavigationAction label="Reddit" icon={<RedditIcon />} />
+        <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} href={`https://github.com/qd9069`} />
+        <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} href={`https://www.linkedin.com/in/qiling-deng-ed20/`} />
+        <BottomNavigationAction label="Reddit" icon={<RedditIcon />} href={``} />
       </BottomNavigation>
     </Box>
   );
