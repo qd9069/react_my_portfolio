@@ -90,10 +90,10 @@ export default function NavTabs({ currentPage, handlePageChange }) {
   // ----------- using app bar style ------------------------------
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static" style={{ background: '#31305a', padding: "35px 1px" }} sx={{ height: '120px' }}>
+      <AppBar position="static" style={{ background: '#31305a', padding: "30px 1px" }} sx={{ height: '120px' }}>
       <Container maxWidth="xl">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'white', }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'white', fontSize: '250%'}}>
             Qiling Deng
           </Typography>
           <Button
@@ -103,7 +103,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("AboutMe")}
             component="a"
             noWrap
-      
+            sx={{ color: 'white', fontSize: '130%' }}
           >
             About Me
           </Button>
@@ -114,7 +114,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Portfolio")}
             component="a"
             noWrap
-            sx={{ color: 'white', display: 'block' }}
+            sx={{ color: 'white', fontSize: '130%' }}
           >
             Portfolio
           </Button>
@@ -125,7 +125,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Contact")}
             component="a"
             noWrap
-            sx={{ color: 'white', display: 'block' }}
+            sx={{ color: 'white', fontSize: '130%' }}
           >
             Contact
           </Button>
@@ -136,7 +136,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Resume")}
             component="a"
             noWrap
-            sx={{ color: 'white', display: 'block' }}
+            sx={{ color: 'white', fontSize: '130%' }}
           >
             Resume
           </Button>
