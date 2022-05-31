@@ -5,12 +5,15 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
-import AttachEmailIcon from '@mui/icons-material/AttachEmail';
+import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
+import AttachEmailIcon from "@mui/icons-material/AttachEmail";
+import CssBaseline from "@mui/material/CssBaseline";
+import IconButton from "@mui/material/IconButton";
 
 export default function Contact() {
   return (
-    <div>
+    <React.Fragment>
+      <CssBaseline />
       {/* // <Card style={{ maxWidth: 550, margin: "0 auto", padding: "20px 5px" }} > */}
       <Card
         style={{ maxWidth: 650, padding: "20px 5px" }}
@@ -99,26 +102,24 @@ export default function Contact() {
             variant="h5"
           >
             Alternatively, feel free to contact me via phone number or email
+            below
           </Typography>
-          <Typography color="black" gutterBottom variant="body2">
-            Phone Number: 
-            <Button variant="contained" size="small" href={`tel:8582678234`} endIcon={<PhoneIphoneIcon />}>
-              (858) 267 - 8234
-            </Button>
-          </Typography>
-          <Typography color="black" gutterBottom variant="body2">
-            Email: 
-            <Button
-              variant="contained"
-              size="small"
-              href={`mailto:qdengliao@gmail.com`}
-              endIcon={<AttachEmailIcon />}
-            >
-              qdengliao@gmail.com
-            </Button>
-          </Typography>
+          <IconButton
+            color="primary"
+            aria-label="Phone"
+            href={`tel:8582678234`}
+          >
+            <PhoneIphoneIcon /> Phone: (858) 267 - 8234
+          </IconButton>
+          <IconButton
+            color="primary"
+            aria-label="Email"
+            href={`mailto:qdengliao@gmail.com`}
+          >
+            <AttachEmailIcon /> Email: qdengliao@gmail.com
+          </IconButton>
         </CardContent>
       </Card>
-    </div>
+    </React.Fragment>
   );
 }

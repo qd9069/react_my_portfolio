@@ -90,7 +90,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
   // ----------- using app bar style ------------------------------
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static" style={{ background: '#31305a', padding: "30px 1px" }} sx={{ height: '120px' }}>
+      <AppBar position="static" style={{ background: '#18BC9C', padding: "30px 1px" }} sx={{ height: '120px' }}>
       <Container maxWidth="xl">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'white', fontSize: '250%'}}>
