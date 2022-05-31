@@ -10,13 +10,15 @@ export default function Portfolio() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg" sx={{my: 7}}>
-        <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} >
+      {/* <Container maxWidth="lg" sx={{my: 7}}>
+        <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} > */}
       <h1>Portfolio</h1>
       {/* for projects */}
       <Container>
-        <Grid container spacing={4} justifyContent="center">
-          <Grid item xs={12} sm={6}>
+        {/* <Grid container spacing={1} justifyContent="center"> */}
+        <Grid container spacing={2} >
+        {/* <Grid item sm={3} md={1} /> */}
+          <Grid item sm={6} md={5} >
             <Project
               img="/images/doggo-meet-up.png"
               name="Doggo Meet Up"
@@ -25,7 +27,8 @@ export default function Portfolio() {
               deployed="https://hidden-reaches-52880.herokuapp.com/"
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          
+          <Grid item sm={6} md={5}>
             <Project
               img="/images/weather-dashboard.png"
               name="Weather Dashboard"
@@ -34,7 +37,9 @@ export default function Portfolio() {
               deployed="https://qd9069.github.io/weather_dashboard_server_apis_project/"
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          {/* <Grid item sm={3} md={1} /> */}
+          {/* <Grid item sm={3} md={1} /> */}
+          <Grid item sm={6} md={5}>
             <Project
               img="/images/code-quiz.png"
               name="Code Quiz"
@@ -43,7 +48,7 @@ export default function Portfolio() {
               deployed="https://qd9069.github.io/code_quiz_api_project/"
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item sm={6} md={5}>
             <Project
               img="/images/unblock-unwind.png"
               name="Unblock-Unwind"
@@ -52,7 +57,9 @@ export default function Portfolio() {
               deployed="https://christinaa126.github.io/unblock-unwind/"
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          {/* <Grid item sm={3} md={1} /> */}
+          {/* <Grid item sm={3} md={1} /> */}
+          <Grid item sm={6} md={5}>
             <Project
               img="/images/note_taker.png"
               name="Note Taker"
@@ -61,7 +68,7 @@ export default function Portfolio() {
               deployed="https://note-taker-express-js-123.herokuapp.com/"
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item sm={6} md={5}>
             <Project
               img="/images/jate.png"
               name="J.A.T.E"
@@ -70,10 +77,11 @@ export default function Portfolio() {
               deployed="https://fathomless-chamber-74811.herokuapp.com/"
             />
           </Grid>
+          {/* <Grid item sm={3} md={1} /> */}
         </Grid>
       </Container>
-      </Box>
-      </Container>
+      {/* </Box>
+      </Container> */}
     </React.Fragment>
   );
 }
