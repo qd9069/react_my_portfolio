@@ -11,7 +11,7 @@ export default function BottomNav() {
 
   return (
     // <Box sx={{ width: 500 }}>
-    <Box maxWidth="lg">
+    <Box maxWidth="lg" borderRadius= '16px' >
       <BottomNavigation
         showLabels
         value={value}

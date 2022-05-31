@@ -90,12 +90,19 @@ export default function NavTabs({ currentPage, handlePageChange }) {
   // ----------- using app bar style ------------------------------
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static" style={{ background: '#18BC9C', padding: "30px 1px" }} sx={{ height: '120px' }}>
-      <Container maxWidth="xl">
+      <AppBar position="static" style={{ background: '#18BC9C', padding: "30px 1px" }} sx={{ height: '20%', width: "100vw"}}>
+      <Container>
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'white', fontSize: '250%'}}>
+          <Box sx={{ display: "flex", justifyContent: 'space-between', width: "100%"}} component="div" >
+            {/* Name */}
+            <Box>
+          <Typography variant="h2" component="div" sx={{ flexGrow: 1, color: 'white', fontSize: '2'}}>
             Qiling Deng
           </Typography>
+            </Box>
+
+          {/* Links */}
+          <Box sx={{ display: "flex", marginRight: "3%" }}>
           <Button
             color="inherit"
             size="large"
@@ -103,7 +110,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("AboutMe")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
           >
             About Me
           </Button>
@@ -114,7 +121,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Portfolio")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
           >
             Portfolio
           </Button>
@@ -125,7 +132,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Contact")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
           >
             Contact
           </Button>
@@ -136,10 +143,13 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Resume")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
           >
             Resume
           </Button>
+
+          </Box>
+          </Box>
         </Toolbar>
         </Container>
       </AppBar>

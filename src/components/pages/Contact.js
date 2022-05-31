@@ -9,12 +9,15 @@ import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import AttachEmailIcon from "@mui/icons-material/AttachEmail";
 import CssBaseline from "@mui/material/CssBaseline";
 import IconButton from "@mui/material/IconButton";
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
 export default function Contact() {
   return (
     <React.Fragment>
       <CssBaseline />
-      {/* // <Card style={{ maxWidth: 550, margin: "0 auto", padding: "20px 5px" }} > */}
+      <Container maxWidth="lg" sx={{my: 7}}>
+        <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} >
       <Card
         style={{ maxWidth: 650, padding: "20px 5px", borderRadius: '16px' }}
         sx={{ my: 7, ml: 9 }}
@@ -120,6 +123,8 @@ export default function Contact() {
           </IconButton>
         </CardContent>
       </Card>
+      </Box>
+      </Container>
     </React.Fragment>
   );
 }

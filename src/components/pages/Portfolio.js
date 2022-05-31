@@ -3,12 +3,15 @@ import Project from "../Project";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import CssBaseline from '@mui/material/CssBaseline';
+import Box from '@mui/material/Box';
 // import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Portfolio() {
   return (
     <React.Fragment>
       <CssBaseline />
+      <Container maxWidth="lg" sx={{my: 7}}>
+        <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} >
       <h1>Portfolio</h1>
       {/* for projects */}
       <Container>
@@ -68,6 +71,8 @@ export default function Portfolio() {
             />
           </Grid>
         </Grid>
+      </Container>
+      </Box>
       </Container>
     </React.Fragment>
   );
