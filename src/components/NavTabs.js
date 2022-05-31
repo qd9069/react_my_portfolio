@@ -90,10 +90,10 @@ export default function NavTabs({ currentPage, handlePageChange }) {
   // ----------- using app bar style ------------------------------
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static">
+      <AppBar position="static" style={{ background: '#31305a', padding: "35px 1px" }} sx={{ height: '120px' }}>
       <Container maxWidth="xl">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'white', }}>
             Qiling Deng
           </Typography>
           <Button
@@ -114,7 +114,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Portfolio")}
             component="a"
             noWrap
-            // sx={{ my: 2, color: 'white', display: 'block' }}
+            sx={{ color: 'white', display: 'block' }}
           >
             Portfolio
           </Button>
@@ -125,6 +125,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Contact")}
             component="a"
             noWrap
+            sx={{ color: 'white', display: 'block' }}
           >
             Contact
           </Button>
@@ -135,6 +136,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Resume")}
             component="a"
             noWrap
+            sx={{ color: 'white', display: 'block' }}
           >
             Resume
           </Button>
