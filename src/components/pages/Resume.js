@@ -8,7 +8,7 @@ export default function Resume() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg" sx={{my: 7}}>
-        <Box sx={{ bgcolor: '#ecf0f1', height: '100vh', padding: "3px 20px" }} >
+        <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} >
         <div>
            <h1>Resume</h1>
            <p>Download my <a href="https://drive.google.com/file/d/1x1ZnnYs4oQoSCHDXF8Zw15VyTKrJOAXI/view?usp=sharing">resume</a></p>

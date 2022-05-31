@@ -16,7 +16,7 @@ export default function Contact() {
       <CssBaseline />
       {/* // <Card style={{ maxWidth: 550, margin: "0 auto", padding: "20px 5px" }} > */}
       <Card
-        style={{ maxWidth: 650, padding: "20px 5px" }}
+        style={{ maxWidth: 650, padding: "20px 5px", borderRadius: '16px' }}
         sx={{ my: 7, ml: 9 }}
       >
         <CardContent>
@@ -91,7 +91,7 @@ export default function Contact() {
         </CardContent>
       </Card>
       <Card
-        style={{ maxWidth: 650, padding: "20px 5px" }}
+        style={{ maxWidth: 650, padding: "20px 5px", borderRadius: '16px' }}
         sx={{ my: 7, ml: 9 }}
       >
         <CardContent>
