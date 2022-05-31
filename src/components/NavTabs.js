@@ -110,7 +110,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("AboutMe")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize', px: "3rem" }}
           >
             About Me
           </Button>
@@ -121,7 +121,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Portfolio")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize', px: "3rem" }}
           >
             Portfolio
           </Button>
@@ -132,7 +132,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Contact")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize', px: "3rem" }}
           >
             Contact
           </Button>
@@ -143,7 +143,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Resume")}
             component="a"
             noWrap
-            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize' }}
+            sx={{ color: 'white', fontSize: '130%', textTransform: 'capitalize', px: "3rem" }}
           >
             Resume
           </Button>

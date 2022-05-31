@@ -11,7 +11,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 export default function Project(props) {
   return (
     // <Card sx={{ maxWidth: 345 }} className="card">
-    <Card  className="card">
+    <Card className="card">
       <CardMedia
         component="img"
         height="140"
