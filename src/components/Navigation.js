@@ -13,7 +13,7 @@ export default function Navigation(props) {
           href={props.link}
           onClick={props.onClick}
           component="a"
-          noWrap
+          // noWrap
           sx={{
             // color: "white",
             fontSize: "130%",
