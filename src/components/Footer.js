@@ -21,7 +21,7 @@ export default function BottomNav() {
       >
         <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} href={`https://github.com/qd9069`} />
         <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} href={`https://www.linkedin.com/in/qiling-deng-ed20/`} />
-        <BottomNavigationAction label="Twitter" icon={<TwitterIcon />} href={``} />
+        <BottomNavigationAction label="Twitter" icon={<TwitterIcon />} href={`https://twitter.com/ED20_20`} />
       </BottomNavigation>
     </Box>
   );
