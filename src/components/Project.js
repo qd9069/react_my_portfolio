@@ -18,7 +18,7 @@ export default function Project(props) {
         alt={props.name}
       />
       <CardActions>
-        <Button size="large" href={props.deployed}>{props.name}</Button>
+        <Button size="large" href={props.deployed} sx={{textTransform: "capitalize"}}>{props.name}</Button>
         <IconButton color="primary" aria-label="Repo" href={props.repo}>
           <GitHubIcon />
         </IconButton>
