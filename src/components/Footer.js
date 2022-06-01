@@ -11,8 +11,9 @@ export default function BottomNav() {
 
   return (
     // <Box sx={{ width: 500 }}>
-    <Box maxWidth="lg" borderRadius= '16px' >
+    <Box maxWidth="lg"   >
       <BottomNavigation
+        // sx={{ bgcolor: '#CBF7ED', borderRadius: '16px' }}
         showLabels
         value={value}
         onChange={(event, newValue) => {
