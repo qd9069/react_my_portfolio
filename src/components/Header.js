@@ -1,5 +1,5 @@
 import React from "react";
-import NavTabs from "./NavTabs";
+import Navigation from "./Navigation";
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -64,22 +64,22 @@ export default function Header({ currentPage, handlePageChange }) {
                   Qiling Deng
                 </Typography>
               </Box>
-              <NavTabs
+              <Navigation
                 link="#aboutMe"
                 page="AboutMe"
                 onClick={() => handlePageChange("AboutMe")}
               />
-              <NavTabs
+              <Navigation
                 link="#portfolio"
                 page="Portfolio"
                 onClick={() => handlePageChange("Portfolio")}
               />
-              <NavTabs
+              <Navigation
                 link="#contact"
                 page="Contact"
                 onClick={() => handlePageChange("Contact")}
               />
-              <NavTabs
+              <Navigation
                 link="#resume"
                 page="Resume"
                 onClick={() => handlePageChange("Resume")}

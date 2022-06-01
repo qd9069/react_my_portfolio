@@ -8,12 +8,8 @@ import Button from "@mui/material/Button";
 // import Tabs from '@mui/material/Tabs';
 // import Tab from '@mui/material/Tab';
 
-export default function NavTabs(props) {
-  // bg color options: #7BDFF2/ #B1EDE8
-  // ----------- using app bar style ------------------------------
+export default function Navigation(props) {
   return (
-    <div>
-      {/* Links */}
       <Box sx={{ display: "flex", marginRight: "1%" }}>
         <Button
           color="inherit"
@@ -32,6 +28,5 @@ export default function NavTabs(props) {
           {props.page}
         </Button>
       </Box>
-    </div>
   );
 }

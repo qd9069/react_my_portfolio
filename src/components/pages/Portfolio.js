@@ -14,7 +14,7 @@ export default function Portfolio() {
         <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} >
       <h1>Portfolio</h1>
       {/* for projects */}
-      <Container maxWidth="md">
+      <Container maxWidth="md" sx={{mb: 5}}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6}>
             <Project
