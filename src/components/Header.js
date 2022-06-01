@@ -68,21 +68,25 @@ export default function Header({ currentPage, handlePageChange }) {
                 link="#aboutMe"
                 page="AboutMe"
                 onClick={() => handlePageChange("AboutMe")}
+                status={currentPage === 'AboutMe' ? 'primary' : 'inherit'}
               />
               <Navigation
                 link="#portfolio"
                 page="Portfolio"
                 onClick={() => handlePageChange("Portfolio")}
+                status={currentPage === 'Portfolio' ? 'primary' : 'inherit'}
               />
               <Navigation
                 link="#contact"
                 page="Contact"
                 onClick={() => handlePageChange("Contact")}
+                status={currentPage === 'Contact' ? 'primary' : 'inherit'}
               />
               <Navigation
                 link="#resume"
                 page="Resume"
                 onClick={() => handlePageChange("Resume")}
+                status={currentPage === 'Resume' ? 'primary' : 'inherit'}
               />
             </Box>
           </Toolbar>

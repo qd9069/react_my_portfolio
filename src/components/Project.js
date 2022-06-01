@@ -7,10 +7,28 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import IconButton from '@mui/material/IconButton';
 import GitHubIcon from "@mui/icons-material/GitHub";
+// import { makeStyles } from "@mui/material";
+
+
+// const useStyles = makeStyles({
+//   card: {
+//     opacity: 1 ,
+//     '&:hover': {
+//       opacity: 0.5,
+//       backgroundColor: "#333"
+//     }
+
+//   }
+// })
+
 
 export default function Project(props) {
+
+  // const classes = useStyles();
+
   return (
     <Card className="card">
+    {/* // <Card className={classes.card}> */}
       <CardMedia
         component="img"
         height="140"

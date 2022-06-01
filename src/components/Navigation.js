@@ -1,25 +1,21 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-// import AppBar from "@mui/material/AppBar";
-// import Toolbar from "@mui/material/Toolbar";
-// import Typography from "@mui/material/Typography";
-// import Container from '@mui/material/Container';
-// import Tabs from '@mui/material/Tabs';
-// import Tab from '@mui/material/Tab';
 
 export default function Navigation(props) {
   return (
       <Box sx={{ display: "flex", marginRight: "1%" }}>
         <Button
-          color="inherit"
+          // color="primary"
+          // color="inherit"
+          color={props.status}
           size="large"
           href={props.link}
           onClick={props.onClick}
           component="a"
           noWrap
           sx={{
-            color: "white",
+            // color: "white",
             fontSize: "130%",
             textTransform: "capitalize",
             px: "1rem",
