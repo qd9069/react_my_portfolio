@@ -18,13 +18,14 @@ export default function Contact() {
       <CssBaseline />
       <Container maxWidth="lg" sx={{my: 7}}>
         <Box sx={{ bgcolor: '#ecf0f1', padding: "3px 20px", borderRadius: '16px' }} >
+        <h1>Contact</h1>
       <Card
         style={{ maxWidth: 650, padding: "20px 5px", borderRadius: '16px' }}
-        sx={{ my: 7, ml: 9 }}
+        sx={{ my: 4, ml: 9 }}
       >
         <CardContent>
           <Typography gutterBottom variant="h5">
-            Contact
+            Contact Me
           </Typography>
           <form>
             <Grid container spacing={1}>
@@ -95,29 +96,33 @@ export default function Contact() {
       </Card>
       <Card
         style={{ maxWidth: 650, padding: "20px 5px", borderRadius: '16px' }}
-        sx={{ my: 7, ml: 9 }}
+        sx={{ my: 5, ml: 9 }}
       >
         <CardContent>
           <Typography
             sx={{ fontSize: 18 }}
             color="black"
             gutterBottom
-            variant="h5"
+            variant="h6"
           >
             Alternatively, feel free to contact me via phone number or email
             below
           </Typography>
           <IconButton
-            color="primary"
+            color="info"
             aria-label="Phone"
             href={`tel:8582678234`}
+            size="small"
+            sx={{ mx: 1 }}
           >
             <PhoneIphoneIcon /> Phone: (858) 267 - 8234
           </IconButton>
           <IconButton
-            color="primary"
+            color="info"
             aria-label="Email"
             href={`mailto:qdengliao@gmail.com`}
+            size="small"
+            sx={{ mx: 1.5 }}
           >
             <AttachEmailIcon /> Email: qdengliao@gmail.com
           </IconButton>
