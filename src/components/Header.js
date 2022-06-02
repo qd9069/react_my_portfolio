@@ -42,7 +42,9 @@ export default function Header({ currentPage, handlePageChange }) {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
         position="static"
-        style={{ background: "#18BC9C", padding: "30px 1px" }}
+        // style={{ background: 'linear-gradient(to right, #b372ec, #399dff, #00bcff, #00d0ee, #00dec3, #79de9f, #b1db85, #dfd47d, #fbc687, #ffbb9e, #ffb6b8, #f2b7ce)', padding: "30px 1px" }}
+        // style={{ background: 'linear-gradient(to right, #b372ec, #7d95ff, #31b0ff, #00c6ff, #00d8ff, #00e4f9, #00eeec, #26f7da, #52fcb8, #85fe8e, #b9fd60, #eef62c)', padding: "30px 1px" }}
+        style={{ background: 'linear-gradient(to right, #b372ec, #399dff, #00bcff, #00d0ee, #00dec3, #00dcbf, #00dbba, #00d9b6, #00c9d6, #00b5ef, #009bf5, #5f7ce2)', padding: "30px 1px" }}
         sx={{ width: "100vw" }}
       >
         <Container>
@@ -58,7 +60,7 @@ export default function Header({ currentPage, handlePageChange }) {
               // }}
             >
               {/* Name */}
-              <Grid md={4}>
+              <Grid item md={4}>
                 <Typography
                   variant="h2"
                   component="h2"
@@ -67,7 +69,7 @@ export default function Header({ currentPage, handlePageChange }) {
                   Qiling Deng
                 </Typography>
               </Grid>
-              <Grid md={8}>
+              <Grid item md={8}>
                 <Navigation
                   link="#aboutMe"
                   page="AboutMe"
