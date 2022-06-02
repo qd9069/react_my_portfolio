@@ -11,7 +11,7 @@ export default function BottomNav() {
 
   return (
     // <Box sx={{ width: 500 }}>
-    <Box maxWidth="lg"   >
+    <Box maxWidth="lg">
       <BottomNavigation
         // sx={{ bgcolor: '#CBF7ED', borderRadius: '16px' }}
         showLabels
