@@ -32,10 +32,6 @@ export default function AboutMe() {
               Therefore, I have started a new journey in learning coding
               recently.
             </p>
-            <p>
-              Below are some of my projects, please feel free to reach out if
-              you have any questions regarding my projects here.
-            </p>
           </div>
         </Box>
       </Container>
