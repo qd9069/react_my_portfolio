@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_my_portfolio/static/css/main.fb3be22a.css",
-    "main.js": "/react_my_portfolio/static/js/main.1ed1c640.js",
+    "main.js": "/react_my_portfolio/static/js/main.e566cd9e.js",
     "static/media/doggo-meet-up.png": "/react_my_portfolio/static/media/doggo-meet-up.a247e506efbfe7a2c361.png",
     "static/media/avatar.png": "/react_my_portfolio/static/media/avatar.8d5734c896c113129280.png",
     "static/media/weather-dashboard.png": "/react_my_portfolio/static/media/weather-dashboard.42e9e7633787bedacfce.png",
@@ -19,10 +19,10 @@
     "static/media/roboto-greek-ext-500-normal.woff2": "/react_my_portfolio/static/media/roboto-greek-ext-500-normal.6fb9cffb1d3e72bf9293.woff2",
     "index.html": "/react_my_portfolio/index.html",
     "main.fb3be22a.css.map": "/react_my_portfolio/static/css/main.fb3be22a.css.map",
-    "main.1ed1c640.js.map": "/react_my_portfolio/static/js/main.1ed1c640.js.map"
+    "main.e566cd9e.js.map": "/react_my_portfolio/static/js/main.e566cd9e.js.map"
   },
   "entrypoints": [
     "static/css/main.fb3be22a.css",
-    "static/js/main.1ed1c640.js"
+    "static/js/main.e566cd9e.js"
   ]
 }
