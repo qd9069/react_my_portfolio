@@ -4,6 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import "@fontsource/roboto/500.css";
+import avatar from '../images/avatar.png';
 
 export default function AboutMe() {
   return (
@@ -17,7 +18,7 @@ export default function AboutMe() {
             <h1>About Me</h1>
             <Avatar
               alt="Avatar"
-              src="/images/avatar.png"
+              src={avatar}
               sx={{ width: 100, height: 100 }}
             />
             <p>

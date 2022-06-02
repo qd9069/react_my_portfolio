@@ -4,6 +4,12 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
+import doggo from '../images/doggo-meet-up.png';
+import weather from '../images/weather-dashboard.png';
+import codeQuiz from '../images/code-quiz.png';
+import unblockUnwind from '../images/unblock-unwind.png';
+import noteTaker from '../images/note_taker.png';
+import jate from '../images/jate.png';
 // import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Portfolio() {
@@ -20,7 +26,7 @@ export default function Portfolio() {
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
                 <Project
-                  img="/images/doggo-meet-up.png"
+                  img={doggo}
                   name="Doggo Meet Up"
                   skills="JavaScript/Handlebars/CSS"
                   repo="https://github.com/qd9069/doggo-meet-up"
@@ -29,7 +35,7 @@ export default function Portfolio() {
               </Grid>
               <Grid item xs={12} sm={6}>
                 <Project
-                  img="/images/weather-dashboard.png"
+                  img={weather}
                   name="Weather Dashboard"
                   skills="HTML/CSS/JavaScript/Bootstrap"
                   repo="https://github.com/qd9069/weather_dashboard_server_apis_project"
@@ -38,7 +44,7 @@ export default function Portfolio() {
               </Grid>
               <Grid item xs={12} sm={6}>
                 <Project
-                  img="/images/code-quiz.png"
+                  img={codeQuiz}
                   name="Code Quiz"
                   skills="HTML/CSS/JavaScript"
                   repo="https://github.com/qd9069/code_quiz_api_project"
@@ -47,7 +53,7 @@ export default function Portfolio() {
               </Grid>
               <Grid item xs={12} sm={6}>
                 <Project
-                  img="/images/unblock-unwind.png"
+                  img={unblockUnwind}
                   name="Unblock-Unwind"
                   skills="HTML/CSS/JavaScript/jQuery"
                   repo="https://github.com/qd9069/unblock-unwind"
@@ -56,7 +62,7 @@ export default function Portfolio() {
               </Grid>
               <Grid item xs={12} sm={6}>
                 <Project
-                  img="/images/note_taker.png"
+                  img={noteTaker}
                   name="Note Taker"
                   skills="HTML/CSS/JavaScript/Express"
                   repo="https://github.com/qd9069/note_taker_express_js_project"
@@ -65,7 +71,7 @@ export default function Portfolio() {
               </Grid>
               <Grid item xs={12} sm={6}>
                 <Project
-                  img="/images/jate.png"
+                  img={jate}
                   name="J.A.T.E"
                   skills="HTML/CSS/JavaScript/Express"
                   repo="https://github.com/qd9069/jate_text_editor_project"
